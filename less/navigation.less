@@ -1,1 +1,24 @@
 // Navigation code here
+nav {
+    .flexbox();
+    .columnspace();
+    background-color: @nav-bg;
+    padding: .7%;
+    div{
+        margin: .3%;
+        .flexbox();
+        width:20%;
+        @media @phone{
+            width:100%;
+        }
+        justify-content: space-around;
+        align-content: center;
+        h2{
+            font-size:400%;
+        }
+        a{
+          font-size: 150%;  
+        }
+    }
+    
+}
